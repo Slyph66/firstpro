@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="waper" style="height: 84px;">
+    <div id="nav">
+        <div class="wrap" style="height: 84px;">
             <a href="#" id="logo">
                 <img src="img/logo.png" alt="豆瓣Logo">
             </a>
             <div id="search-box">
                 <label for="ipt-search"><input type="text" id="ipt-search"></label>
-                <button type="button" id="btn-search"></button>
+                <button id="btn-search"></button>
             </div>
             <ul id="nav-menu">
                 <li><a href="#" class="reading">读书</a></li>
@@ -27,7 +27,44 @@
                 <li><a href="#" class="jishi">集市</a></li>
             </ul>
         </div>
-        <div></div>
     </div>
+    <div id="banner">
+        <div class="wrap">
+            <div class="app">
+                <h1>豆瓣5.0</h1>
+                <p>我们的精神角落</p>
+                <a href="#" class="btn">下载豆瓣APP</a>
+                <img class="code" src="img/erweima.png" alt="" tittle="">
+            </div>
+            <form action="" class="login-form">
+                <p>
+                    <input class="username" type="text" name="email" placeholder="邮箱">
+                </p>
+<!--            <div class="password-box">-->
+<!--                <input class="ipt-password" type="text">-->
+<!--                <button class="btn-password">帮助</button>-->
+<!--            </div>-->
+                <p class="password-box">
+                    <input class="ipt-password" type="text" placeholder="密码"><a href="#">帮助</a>
+                </p>
+                <div>
+                    <input class="login-btn1" type="submit" value="登录豆瓣"><input class="login-btn2" type="submit" value="注册账户">
+                    <label class="login-remember"><input type="checkbox" >记住我</label>
+                    <ul class="contact">
+                        <li class="wechat"></li>
+                        <li class="weibo"></li>
+                     </ul>
+                </div>
+            </form>
+        </div>
+        <div class="content">
+            <div class="ceshi">
+                <a href="#">hah</a>
+            </div>
+
+        </div>
+
+    </div>
+<!--解决IE6不支持PNG透明问题-->
 </body>
 </html>

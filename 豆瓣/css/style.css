@@ -12,12 +12,15 @@ img{
 ul,ol{
     list-style: none;
 }
+input{
+    outline: none;
+}
 /*   */
-.nav{
+#nav{
     height: 84px;
     background-color: white;
 }
-.waper{
+.wrap{
     /*height: 84px;*/
     width: 950px;
     margin: 0 auto;
@@ -88,8 +91,15 @@ ul,ol{
     background-position: -300px 0;
 }
 #nav-menu .dongxi{
-     background-position: -360px 0;
+    background-position: -360px 0;
  }
 #nav-menu .jishi{
       background-position: -420px 0;
+}
+.tu{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 0;
+    /*text-align: center;*/
 }
